@@ -1,6 +1,6 @@
-GRPCServerPort: "50051"
-WebSocketServerPort: "8080"
+GRPCServerPort: "50056"
+WebSocketServerPort: "8086"
 
 HTTPServer:
-  IP: "127.0.0.1"
-  Port: ":3001"
+  IP: "current_ip"
+  Port: ":3006"
