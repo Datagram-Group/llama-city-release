@@ -1,4 +1,4 @@
-- Download the appropriate version. Don't forget to download and configure the `config.yaml` file.
+- Don't forget to download and configure the `config.yaml` file.
 
 - Launch the application with a config:
 
