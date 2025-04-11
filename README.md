@@ -19,3 +19,11 @@
     - To check the health of the application, use the command: `curl your_domain:port/api/up`
 
     - Note: `your_domain` is the IP or domain of the server, and similarly for `port`. These are configured in the `HTTPServer` section of the `config.yaml` file.
+
+- Check gRPC:
+
+    - Install grpcurl, refer to the documentation at `https://github.com/fullstorydev/grpcurl`
+
+    - After installation, use the command `grpcurl -plaintext your_domain:port chat.Health/Check`
+
+    - Example: grpcurl -plaintext localhost:50056 chat.Health/Check`
